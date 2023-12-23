@@ -1,0 +1,13 @@
+[flake8]
+ignore = E203, E266, E501, W503
+max-line-length = 88
+max-complexity = 10
+exclude = .git, __pycache__, migrations
+
+
+#pip3 install flake8-bugbear
+#pip3 install flake8-builtins
+#pip3 install pep8-naming
+#pip3 install flake8-commas
+#pip3 install flake8-variables-names
+#pip3 install flake8-import-order
