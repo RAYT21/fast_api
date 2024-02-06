@@ -1,0 +1,14 @@
+pip install flake8-bugbear
+pip install flake8-builtins
+pip install pep8-naming
+pip install flake8-commas
+pip install flake8-variables-names
+pip install flake8-import-order
+
+pip install fastapi[all]
+pip install sqlalchemy alembic psycopg2
+pip install fastapi-users[sqlalchemy]
+pip install asyncpg
+pip install fastapi-cache2[redis]
+pip install celery flower
+pip install pytest pytest-asyncio

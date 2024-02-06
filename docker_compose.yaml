@@ -1,0 +1,10 @@
+# docker-compose.yml file
+version: '3'
+
+services:
+  nginx:
+    image: nginx:1.16.0-alpine
+    volumes:
+      - ./frontend/project/main_page.html:/usr/share/nginx/html/index.html
+    ports:
+      - "8080:80"
